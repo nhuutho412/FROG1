@@ -1,0 +1,157 @@
+.movie-list-index.home-v2{max-width:100%}.movie-list-index.home-v2 ul.last-film-box{list-style-type:none;-webkit-margin-before:0;-webkit-margin-after:0;-webkit-margin-start:0;-webkit-margin-end:0;-webkit-padding-start:0;padding:0}.movie-list-index.home-v2 .header-list-index{overflow:hidden;white-space:nowrap}.movie-list-index.home-v2 ul.last-film-box>li{display:inline-block!important;margin-right:1%;margin-bottom:10px!important;width:23.56060504%}.movie-list-index.home-v2 ul.last-film-box>li>.movie-item{width:100%!important}.movie-list-index.home-v2 ul.last-film-box>li>.movie-item .movie-thumbnail{width:100%!important}.movie-list-index.home-v2 ul.last-film-box>li>.movie-item .movie-thumbnail .public-film-item-thumb{display:block!important;width:100%!important;height:100%!important}@media screen and (max-width:640px){.movie-list-index.home-v2 ul.last-film-box>li{width:32%}}@media screen and (max-width:480px){.movie-list-index.home-v2 ul.last-film-box>li{width:48%;margin-right:2%}.movie-list-index.home-v2 ul.last-film-box>li:nth-child(2n+2){margin-right:0}}
+
+body{
+    color: #000;
+    font-size: 12px;
+    line-height: 1.5em;
+    background: url(../img/body_bg.gif) #6f6d72;
+}
+
+
+.block-wrapper{
+    position: relative;
+    padding: 2px;
+    background: #4F4E52 url('../img/item_bg.gif') repeat;
+    border-bottom: 1px solid #868489;
+    color: #ddd;
+    height: auto;
+    display: block;
+    border-radius: 3px;
+}
+
+/* _end Facebook Top */
+
+.movie-list-index{
+    margin-bottom: 20px;
+    width: 670px;
+}
+.movie-list-index .list-movie{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.movie-list-index .list-movie .movie-item{
+    margin: 10px 20px 10px 0px;
+    width: 210px;
+    height: 351px;
+    float: left;
+}
+.movie-list-index .list-movie .movie-item:hover .movie-thumbnail{
+    opacity: 0.8;
+}
+.movie-list-index .list-movie .movie-item:nth-child(3n){
+    margin-right: 0px !important;
+}
+.movie-item .movie-thumbnail{
+    width: 100%;
+    height: 275px;
+}
+.movie-item .movie-thumbnail img{
+    width: 100%;
+}
+.movie-item .movie-thumbnail img:hover{
+    opacity: 0.7;
+    width: 100%;
+}
+.movie-item .movie-meta{
+    margin: 5px 5px;
+}
+.movie-item .movie-meta .movie-title-chap{
+    font-size: 12px;
+    color: #777;
+    line-height: normal;
+}
+.movie-item .movie-meta .movie-title-1{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    color: #44e2ff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.movie-item .movie-meta .movie-title-1 a{
+    color: #44e2ff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.movie-item .movie-meta .movie-title-2{
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    line-height: normal;
+    color: #ccc;
+    font-size: 12px;
+    text-decoration: none;
+    padding-top: 4px;
+}
+.movie-item .movie-meta .movie-title-2 a{
+    color: #ccc;
+    font-size: 12px;
+    text-decoration: none;
+}
+.movie-item .movie-meta .movie-title-1:hover,
+.movie-item .movie-meta .movie-title-2:hover{
+    color: #dacb46;
+}
+
+.header-list-index .title-list-index{
+    color: #dacb46;
+    text-shadow: 1px 1px 1px #1a1a1a;
+    display: inline-block;
+    font: 30px/40px 'UTMCafetaRegular';
+    text-transform: uppercase;
+}
+.header-list-index .more-list-index{
+    float: right;
+    display: inline-block;
+    padding: 15px 12px 0px 0px;
+    color: #ddd;
+    font-size: 14px;
+    text-decoration: none;
+    background: url(../img/body_bg.gif) no-repeat right 21px;
+}
+.header-list-index .more-list-index:hover{
+    color: #dacb46;
+}
+
+.ribbon{
+    position: absolute;
+    color:#fff;
+    background: #A21D0A;
+    font-size: 11px;
+    font-weight: bold;
+    float: left;
+    clear: both;
+    padding: 5px;
+    text-shadow:1px 1px 2px #111;
+    left: 2px;
+    top: 5px;
+    white-space: nowrap;
+    display: inline-block;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+}
+.ribbon:after{
+    content:"";
+    float: right;
+    position:absolute;
+    top:0;
+    right: -12px;
+    width:0;
+    height:0;
+    border-color:transparent transparent transparent #A21D0A;
+    border-style:solid;
+    border-width: 11px 0 12px 12px;
+}
